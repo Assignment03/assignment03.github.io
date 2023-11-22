@@ -31,7 +31,6 @@
   .mt-40,
   .infor {
     text-align: left;
-  
   }
   /* .job-container {
     display: grid;
@@ -70,20 +69,21 @@
     font-size: 25px !important;
   }
   .languge-content h5,
-  .skill-content h5{
+  .skill-content h5 {
     font-size: 18px;
   }
   /*chứng chỉ- giải thưởng*/
   .certificate-container {
     display: grid;
-    grid-template-columns: auto auto
-    grid-template-rows: repeat(5, auto);
-    padding: 40px;
+    grid-template-columns: auto auto;
+    /* grid-template-rows: repeat(5, auto);
+    padding: 40px; */
     /* row-gap: 40px; */
   }
   .certificate-img {
     width: 100%;
-    height: 50%;
+    height: auto;
+    /* height: 60%; */
     /* padding-left: 25px; */
     transition: transform 0.3s ease;
   }
@@ -100,24 +100,22 @@
     font-weight: bold;
   }
   .web-container,
-  .data-container{
+  .data-container {
     padding-right: 20px;
   }
-  .certificate-img{
+  .certificate-img {
     margin-bottom: 10px;
   }
   /*du an*/
-  .project 
-    .project-content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto 1fr;
+  .project .project-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr;
   }
-  .project-content h3{
+  .project-content h3 {
     font-size: 15px;
   }
-  .funix-dep1{
-   display: block;
+  .funix-dep1 {
+    display: block;
   }
-}  
-
+}

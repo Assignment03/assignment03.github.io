@@ -84,7 +84,7 @@
 @media screen and (max-width: 992px) {
   .digital-cv .goals,
   .digital-cv .team,
-  .digital-cv .scopes,
+  .digital-cv .scopes-content,
   .digital-cv .primary,
   .digital-cv .timeline-item,
   .team-content .team1,
@@ -103,7 +103,7 @@
   }
   .container .digital-cv,
   .timeline-item,
-  .primary1, 
+  .primary1,
   .scopes .scopes-content {
     display: flex;
     flex-direction: column;
