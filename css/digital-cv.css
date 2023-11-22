@@ -103,7 +103,8 @@
   }
   .container .digital-cv,
   .timeline-item,
-  .primary1 {
+  .primary1, 
+  .scopes-content {
     display: flex;
     flex-direction: column;
   }
