@@ -1,0 +1,87 @@
+@media screen and (max-width: 576px) {
+  /*navbar*/
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    justify-content: left;
+    .nav-item {
+      border: none;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .nav-item.large {
+      flex: 1;
+    }
+
+    .nav-item.large {
+      display: none;
+    }
+  }
+  /*thông tin cá nhân*/
+  .infor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .icon {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .section-title {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .infor {
+    padding: 0 20px;
+  }
+  /*cong viec & /*chung chi-giải thưởng*/
+  .job-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .certificate-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .web-container,
+  .data-container,
+  .java-container {
+    display: flex;
+    flex-direction: column;
+    border-left: none;
+    padding: 30px 0;
+    border-bottom: 2px solid #d6c08d;
+  }
+  .border {
+    display: none;
+  }
+  .certificate-img {
+    width: auto;
+    height: 50%;
+    /* padding-left: 25px; */
+    transition: transform 0.3s ease;
+    margin-bottom: 10px;
+  }
+  #container .project,
+  #container .project-content {
+    display: flex;
+    flex-direction: column;
+
+    /* row-gap: 30px; */
+    margin-bottom: 30px;
+  }
+  .project,
+  .project-content h1 {
+    font-size: 24px;
+  }
+
+  #container.project-img {
+    /* flex: 1; */
+    object-fit: cover;
+  }
+}
