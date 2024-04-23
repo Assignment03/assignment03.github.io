@@ -16,6 +16,7 @@ const closeInfor = function () {
   sectionContent.classList.add("hidden");
   submitEmail.classList.remove("hidden");
 };
+/*điền email để hiển thị thông tin*/
 submitButton.addEventListener("click", function (e) {
   if (!regex.test(email.value.toLocaleLowerCase())) {
     alert("Email không hợp lệ!");
@@ -44,3 +45,10 @@ for (let i = 0; i < viewMores.length; i++)
       this.textContent = "▾ View More";
     }
   });
+for (let i = 0; i <= 100; i++) {
+  console.log("chúc em yêu ngủ ngon");
+}
+let sentences = new Array(100).fill("Em yêu ngủ ngon");
+sentences.forEach((sentence, index) => {
+  console.log(sentence + " số " + (index + 1));
+});
